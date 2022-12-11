@@ -1,6 +1,10 @@
 const { ethers } = require("hardhat");
 require("dotenv").config({ path: ".env" });
+<<<<<<< HEAD
 const { CRYPTO_DEVS_NFT_CONTRACT_ADDRESS } = require("../constants");
+=======
+const { CRYPTO_DEVS_NFT_CONTRACT_ADDRESS } = require("../constants/index.js");
+>>>>>>> 5231b12 (first commit)
 
 async function main() {
   // Address of the Crypto Devs NFT contract that you deployed in the previous module
